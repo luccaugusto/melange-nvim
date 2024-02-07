@@ -23,7 +23,7 @@ local strikethrough = enable_font_variants
 for name, attrs in pairs {
   ---- :help highlight-default -------------------------------
 
-  Normal = { fg = a.fg, bg = a.bg },
+  Normal = { fg = a.fg },
   NormalFloat = { bg = a.float },
   -- NormalNC = {},
 
